@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(49, 50, 41);
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.card__main{
+    background-color: rgb(31, 141, 141);
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+.card__main2{
+    background-color: rgb(155, 172, 32);
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.card__inner {
+    background-color: rgb(53, 77, 69);
+}
+.card__inner2 {
+    background-color: rgb(98, 81, 64);
+}
+#our{
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+.card__name{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+   
+}
+
+.card__total_card_small {
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px rgb(47, 48, 37);
+}
+
+.card {
+    background-color: aqua;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+
+.head{
+    text-align: center;
+    justify-content: center;
+}
+
+.block{
+    /* display: block; */
+    display: inline-block;
+    
+    width: 360px;
+    padding: 10px;
+    
+} 
+
+.card__main:hover {
+    transform: scale(1.1,1.1);
+}
+.card__main2:hover {
+    transform: scale(1.1,1.1);
+}
